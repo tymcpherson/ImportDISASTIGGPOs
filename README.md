@@ -19,12 +19,12 @@
 #  2) Extracts the contents of the .zip file to %TEMP%
 #  3) Creates a migration table
 #  4) Creates and imports non-Office GPOs
-#  5) Creats the combined Office user and computer GPOs per version
-#  6) Creats a temporary random Office Product GPO, then imports that products settings into the combined Office
+#  5) Creates the combined Office user and computer GPOs per version
+#  6) Creates a temporary random named Office Product GPO, then merges that products settings into the combined Office
 #     user or computer version
 #  7) Removes the temporary random Office Product GPO
 #  8) Adds the Office product STIG versioning to the description
-#  9) Clean up the migration table file, and extracted .zip contents
+#  9) Cleans up the %TEMP% working directory
 #
 #  Note:  There are sleep statements within this script that make the processing longer due to race conditions
 #         between creating the GPO, adding settings/modifying attributes
