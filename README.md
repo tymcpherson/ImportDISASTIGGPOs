@@ -1,5 +1,5 @@
 # Purpose:
-#  This is script is used to automate the process of creating and importing the STIG GPOs
+#  This is a script to automate the process of creating and importing the STIG GPOs
 #  that DISA provides.
 #  This script takes ~30 minutes to run.
 #  Hopefully this saves you time in the long run!!!
